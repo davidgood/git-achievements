@@ -124,7 +124,10 @@ function unalias_command
     export GITACHIEVEMENTSDONTRUN=1
     #XXX maybe this should be recursive?
     
-    local cmdline=$(git config --get "alias.$1")
+    inputCMD="$1"
+    cmd=( $=inputCMD )
+    
+    local cmdline=$(git config --get "alias.$cmd[1]")
     echo $cmdline
     export GITACHIEVEMENTSDONTRUN=0
 }
