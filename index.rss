@@ -2,6 +2,7 @@
 <title>Dave Lee's Git Achievements</title>
 <description></description>
 <link></link>
+<item><title>Apprentice Historian (Level 3)</title><description>Investigate the commit log using git log.</description></item>
 <item><title>Apprentice Historian (Level 1)</title><description>Investigate the commit log using git log.</description></item>
 <item><title>Apprentice Chimney Sweeper (Level 1)</title><description>Used git gc to run a number of housekeeping tasks on the current repository.</description></item>
 <item><title>Apprentice Blacksmith (Level 2)</title><description>Created a branch using git checkout -b.</description></item>
@@ -21,5 +22,4 @@
 <item><title>Apprentice Collector (Level 1)</title><description>Fetches named heads or tags from another repository with git fetch</description></item>
 <item><title>Apprentice Merchant (Level 1)</title><description>Added an external repository with git remote add.</description></item>
 <item><title>Apprentice Socialite (Level 1)</title><description>pushed a branch to a remote repository using git push</description></item>
-<item><title>Apprentice Author (Level 1)</title><description>Made 2^Level commits using git commit.</description></item>
 </channel></rss>
