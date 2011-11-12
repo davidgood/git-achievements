@@ -557,7 +557,7 @@ git-achievements-zsh-precmd()
 {
 
 #   TODO: FIX THE CONDITIONAL SO THAT IT EXECUTES IF GITACHIEVEMENTSDOCHECK is either 0 or not defined.
-
+  
     lastRet=$?
     if [ ! -z $GITACHIEVEMENTSDOCHECK ]; then
         if [ $GITACHIEVEMENTSDOCHECK -eq 0 ]; then
