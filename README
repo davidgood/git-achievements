@@ -41,7 +41,7 @@ plugins directory in order for it to work correctly.
 e.g. 
 
 cd ~/.oh-my-zsh/plugins
-git clone https://github.com/<username>/git-achievements
+git clone https://github.com/<username>/git-achievements.git
 
 
 Install
