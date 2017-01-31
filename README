@@ -34,6 +34,15 @@ git config --global achievement.upload "true"
 When an achievement is unlocked the index.html file will be overwritten,
 committed and then a 'git push origin' will be executed.
 
+zsh
+-------
+Since this is packaged as an oh-my-zsh plugin you need to clone it directly into your
+plugins directory in order for it to work correctly.
+e.g. 
+```zsh
+cd ~/.oh-my-zsh/plugins
+git clone https://github.com/<username>/git-achievements
+```
 
 Install
 -------
